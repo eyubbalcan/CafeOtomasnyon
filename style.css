@@ -1,0 +1,64 @@
+*
+{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color:#262626; background-size:cover;
+    background-image: url(https://img.freepik.com/free-photo/background-blurry-restaurant-shop-interior_1203-4031.jpg?w=900&t=st=1685343523~exp=1685344123~hmac=106f38732d1d51197996e087204d8450361e3f7960350e9e855742699a032a82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+form
+{
+    background-color: #424242;
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: center;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0);
+    width: 300px;
+    height: 380px;
+
+}
+
+form h2
+{
+    font: size 55px;
+    color: white;
+    margin-bottom: 30px;
+ 
+}
+
+form input
+{
+    border: none;
+    background: center;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    height: 30px;
+    width: 80%;
+    border-radius: 40px ;
+    transition: 0.82 linear;
+}
+
+form input[type="text"], form input[type=password]{
+    border: solid 2px #e84118;
+}
+form input[type="submit"]{
+    border: solid 2px #fbc531 ;
+    box-sizing: border-box;
+    height: 50px;
+    width: 40%;
+}
